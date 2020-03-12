@@ -1,19 +1,23 @@
 package co.uk.zoopla.stepDefinitions;
 
 import co.uk.zoopla.pages.BasePage;
+import co.uk.zoopla.pages.HomePage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
-public class PropertyForSaleSteps extends BasePage {
+public class PropertyForSaleSteps extends BasePage
+{
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     @Given("I navigate to zoopla homepage")
     public void i_navigate_to_zoopla_homepage() {
-launchURL();
+homePage.launchURL();
     }
 
     @When("I enter a {string} in the search text box")
-    public void i_enter_a_in_the_search_text_box(String string) {
-
+    public void i_enter_a_in_the_search_text_box(String location) {
+homePage.enterLocation(location);
     }
 
     @When("I select {string} from Min price dropdown")

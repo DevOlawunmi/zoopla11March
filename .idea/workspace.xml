@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d394626-78b8-4fd1-8925-d39babcf9787" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/PropertyForSaleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/PropertyForSaleSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,38 +101,46 @@
       <option name="project" value="LOCAL" />
       <updated>1583980218238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Location successfully entered in searchfield">
+      <created>1583982831611</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583982831611</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Framework created, step definitions generated" />
     <MESSAGE value="URL successfully launched" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL successfully launched" />
+    <MESSAGE value="Location successfully entered in searchfield" />
+    <option name="LAST_COMMIT_MESSAGE" value="Location successfully entered in searchfield" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583980217675">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1583982831029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583980217675" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583982759016">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583982831029" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1584072210482">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583982759016" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583982759016">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584072210482" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1584072210481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583982759016" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583982759016">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584072210481" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1584072210480">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583982759016" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583982759016">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584072210480" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1584072210481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583982759016" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1583980220714">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584072210481" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1583982835581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583980220714" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583982835581" />
   </component>
 </project>

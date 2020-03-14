@@ -53,8 +53,11 @@ homePage.enterLocation(location);
     }
 
     @Then("a list of {string} in {string} are displayed")
-    public void a_list_of_in_are_displayed(String string, String string2) {
-
+    public void a_list_of_in_are_displayed(String property, String location) {
+searchResultPage.isSearchResultDisplayed();
+searchResultPage.isCorrectURLDisplayedForSearch(location);
+searchResultPage.isLocationDisplayed(location);
+searchResultPage.isPropertyTypeDisplayed(property);
     }
 
     @Then("I click on one of the results links")

@@ -17,7 +17,7 @@ public class SearchResultPage extends BasePage{
 }
 @FindBy (tagName = "h1")
     private WebElement pageTitle;
-    @FindBy(css = ".listing-results-price.text-price")
+    @FindBy(className = "listing-results-utils-count")
     private List<WebElement> results;
 
     public void isSearchResultDisplayed (){

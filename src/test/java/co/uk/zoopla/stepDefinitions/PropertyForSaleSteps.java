@@ -65,7 +65,7 @@ searchResultPage.isPropertyTypeDisplayed(property);
 
     @Then("I click on one of the results links")
     public void i_click_on_one_of_the_results_links() {
-        productDetailsPage = searchResultPage.clickOnAnyResultsLinkAtRandom();
+        productDetailsPage = searchResultPage.clickOnTheFirstResultLink();
     }
 
 

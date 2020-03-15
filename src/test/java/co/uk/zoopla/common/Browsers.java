@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class Browsers extends DriverLib {
     private WebDriver initChrome() {
         WebDriverManager.chromedriver().setup();
@@ -28,7 +30,9 @@ public class Browsers extends DriverLib {
         switch (browser) {
             case "Chrome":
                 driver = initChrome();
-
+                driver.manage().window().maximize();
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
 
         }
     }

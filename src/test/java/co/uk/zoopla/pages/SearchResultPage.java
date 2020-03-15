@@ -39,12 +39,19 @@ public class SearchResultPage extends BasePage{
     {
 driver.getCurrentUrl().contains(location.toLowerCase());
     }
-    public ProductDetailsPage clickOnAnyResultsLinkAtRandom()
-    {
-        Random ran = new Random();
-        int randomNumber = ran.nextInt(results.size() - 1 );
 
-        results.get(randomNumber).click();
-        return new ProductDetailsPage(driver);
-    }
+
+   public ProductDetailsPage clickOnTheFirstResultLink()
+   {
+        results.get(0).click();
+      return new ProductDetailsPage(driver);
+   }
+//    public ProductDetailsPage clickOnAnyResultsLinkAtRandom()
+//    {
+//        Random ran = new Random();
+//        int randomNumber = ran.nextInt(results.size() - 1 );
+//
+//        results.get(randomNumber).click();
+//        return new ProductDetailsPage(driver);
+//    }
 }

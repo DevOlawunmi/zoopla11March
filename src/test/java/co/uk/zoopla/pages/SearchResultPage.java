@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
+import java.util.Random;
 
 public class SearchResultPage extends BasePage{
     public SearchResultPage(WebDriver driver)
@@ -15,7 +16,7 @@ public class SearchResultPage extends BasePage{
     DriverLib.driver = driver;
     PageFactory.initElements(driver,this);
 }
-@FindBy (tagName = "h1")
+    @FindBy(tagName = "h1")
     private WebElement pageTitle;
     @FindBy(className = "listing-results-utils-count")
     private List<WebElement> results;
@@ -37,5 +38,13 @@ public class SearchResultPage extends BasePage{
     public void isCorrectURLDisplayedForSearch(String location)
     {
 driver.getCurrentUrl().contains(location.toLowerCase());
+    }
+    public ProductDetailsPage clickOnAnyResultsLinkAtRandom()
+    {
+        Random ran = new Random();
+        int randomNumber = ran.nextInt(results.size() - 1 );
+
+        results.get(randomNumber).click();
+        return new ProductDetailsPage(driver);
     }
 }

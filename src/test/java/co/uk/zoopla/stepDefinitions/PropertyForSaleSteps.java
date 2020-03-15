@@ -2,18 +2,21 @@ package co.uk.zoopla.stepDefinitions;
 
 import co.uk.zoopla.pages.BasePage;
 import co.uk.zoopla.pages.HomePage;
+import co.uk.zoopla.pages.ProductDetailsPage;
 import co.uk.zoopla.pages.SearchResultPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
-import javax.naming.directory.SearchResult;
+
 
 public class PropertyForSaleSteps extends BasePage
 {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     SearchResultPage searchResultPage = PageFactory.initElements(driver,SearchResultPage.class);
+    ProductDetailsPage productDetailsPage = PageFactory.initElements(driver, ProductDetailsPage.class);
+
     @Given("I navigate to zoopla homepage")
     public void i_navigate_to_zoopla_homepage() {
 homePage.launchURL();
@@ -62,7 +65,7 @@ searchResultPage.isPropertyTypeDisplayed(property);
 
     @Then("I click on one of the results links")
     public void i_click_on_one_of_the_results_links() {
-
+        productDetailsPage = searchResultPage.clickOnAnyResultsLinkAtRandom();
     }
 
 

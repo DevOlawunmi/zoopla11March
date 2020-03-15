@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d394626-78b8-4fd1-8925-d39babcf9787" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/DriverLib.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/PropertyForSaleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/PropertyForSaleSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584244999390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test passed. Product Details Page successfully displayed">
+      <created>1584248350960</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584248350960</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,37 +153,38 @@
     <MESSAGE value="Test failed. Element locator issues" />
     <MESSAGE value="Test passed. Search Result page successfully launched" />
     <MESSAGE value="Test Failed Again. No such Element Exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Failed Again. No such Element Exception" />
+    <MESSAGE value="Test passed. Product Details Page successfully displayed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test passed. Product Details Page successfully displayed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584244998780">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1584248350326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584244998780" />
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom" timestamp="1584248212605">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584248350326" />
+    <state width="1493" height="150" key="GridCell.Tab.0.bottom" timestamp="1584250245117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584248212605" />
-    <state width="1493" height="150" key="GridCell.Tab.0.center" timestamp="1584248212605">
+    <state width="1493" height="150" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584250245117" />
+    <state width="1493" height="150" key="GridCell.Tab.0.center" timestamp="1584250245117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584248212605" />
-    <state width="1493" height="150" key="GridCell.Tab.0.left" timestamp="1584248212605">
+    <state width="1493" height="150" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584250245117" />
+    <state width="1493" height="150" key="GridCell.Tab.0.left" timestamp="1584250245117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584248212605" />
-    <state width="1493" height="150" key="GridCell.Tab.0.right" timestamp="1584248212605">
+    <state width="1493" height="150" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584250245117" />
+    <state width="1493" height="150" key="GridCell.Tab.0.right" timestamp="1584250245117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584248212605" />
+    <state width="1493" height="150" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584250245117" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1584247158239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584247158239" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584245002373">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1584248355981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584245002373" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584248355981" />
     <state x="209" y="109" key="new project wizard" timestamp="1584163098035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

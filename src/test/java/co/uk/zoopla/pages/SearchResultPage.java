@@ -16,7 +16,7 @@ public class SearchResultPage extends BasePage{
     DriverLib.driver = driver;
     PageFactory.initElements(driver,this);
 }
-    @FindBy(tagName = "h1")
+    @FindBy(css = "#content h1")
     private WebElement pageTitle;
     @FindBy(className = "listing-results-utils-count")
     private List<WebElement> results;
